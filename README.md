@@ -1,14 +1,14 @@
 # fin-story-gen
 
-**Automated Narrative Factory** is a modular, data-driven equity research prototype that synthesizes market, macroeconomic, sector, and company-level datasets into institutional-style investment narratives. The project automates the first-pass stock story by linking price action to likely performance drivers, transforming raw financial data into structured, explainable commentary.
+**Automated Narrative Factory** is a modular, data-driven equity research prototype with the goal to synthesize market, macroeconomic, sector, and company-level datasets into institutional-style investment narratives. The project is designed to automate the first-pass stock story by linking price action to likely performance drivers, transforming raw financial data into structured, explainable commentary.
 
-This is not a stock prediction tool. It is a **grounded stock story generation system**: a deterministic-first research workflow that identifies likely performance drivers from validated data, then uses AI-assisted narrative generation to convert those findings into professional investment commentary.
+This is not intended to be used as a stock prediction tool. Instead it is prototyped as a **grounded stock story generation system**: a deterministic-first research workflow that identifies likely performance drivers from validated data, then uses AI-assisted narrative generation to convert those findings into professional investment commentary.
 
 ## Project Purpose
 
 Financial market narratives often require analysts to reconcile multiple sources of information: stock price movement, index performance, macroeconomic indicators, sector relationships, SEC filings, earnings context, and market sentiment. Manual synthesis is time-consuming, inconsistent, and vulnerable to unsupported conclusions when AI tools are used without structured evidence.
 
-`fin-story-gen` addresses this by creating a deterministic research layer before narrative generation. The system identifies and ranks likely performance drivers, then passes structured evidence to an LLM for controlled narrative synthesis.
+As `fin-story-gen` evolves, it will be tailored to addresses this by creating a deterministic research layer before narrative generation. The system is being structured to identify and rank likely performance drivers, then pass structured evidence to an LLM for controlled narrative synthesis.
 
 ## Core Design Principles
 
